@@ -1,0 +1,93 @@
+body {
+    background-color: #343434;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .form input {
+    padding: 20px 0 10px;
+  }
+  
+  /* Hide number input arrow */
+  .form input::-webkit-outer-spin-button,
+  .form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  
+  /* Remove autocomplete box  */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active{
+      -webkit-box-shadow: 0 0 0 30px  gray inset !important;
+      padding-left: 10px;
+  }
+  
+  .form input,
+  .form textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #adb5bd;
+    background-color: #343434;
+    color: #fff;
+    outline: none;
+    width: 350px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;  
+    transition: all 0.3s;
+  }
+  
+  .form input::placeholder,
+  .form textarea::placeholder {
+    color: #adb5bd;
+    font-size: 16px;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    transition: all 0.3s;
+  }
+  
+  .form textarea {
+    padding: 10px 0;
+    resize: none;
+    overflow: hidden;
+  }
+  
+  .form input:focus,
+  .form textarea:focus {
+    border-bottom: 1px solid #007fff;
+    padding-left: 10px;
+  }
+  
+  .form input:focus::placeholder,
+  .form textarea:focus::placeholder {
+    color: #0080ffee;
+  }
+  
+  #btn-submit,
+  #btn-reset {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+  
+  #btn-submit {
+    color: #fff;
+    background-color: #007fff;
+    margin-right: 10px;
+  }
+  
+  #btn-submit:hover {
+    background-color: #fff;
+    color: #007fff;
+    cursor: pointer;
+  }
+  
+  #btn-reset:hover {
+    color: #fff;
+    background-color: #007fff;
+    cursor: pointer;
+  }
